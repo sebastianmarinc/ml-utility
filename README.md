@@ -11,6 +11,23 @@ The project was to create a head-to-head comparison between VAEs and MIRT models
 - VAEs recover parameters at faster speeds (by orders of magnitude)
 - VAE architecture can be built to meet IRT assumptions
 
+## Simulation setup 
+- Data 
+  - Simulated response data and Q matrices using simcdm package in R 
+  - 30, 50, 100 items
+  - 3, 5 factors (correlated) 
+- IRT model
+  - 2PL models built using mirt package in R
+  - MIRT model specified to Q-matrix structure
+  - Monte Carlo EM estimation (1000 cycles)
+- VAE architecture 
+  - VAE models built using ML2Pvae package in R
+  - 2 encoder hidden layers
+  - 3 factors: 16 nodes (hidden 1), 8 nodes (hidden 2)
+  - 5 factors: 24 nodes (hidden 1), 16 nodes (hidden 2) 
+  - Epochs and batch sizes were tuned
+
+
 ### References 
 Converse, G. (2020). ML2Pvae: Variational autoencoder models for IRT parameter estimation. R package version 1.0.0. https://CRAN.R-project.org/package=ML2Pvae
 
