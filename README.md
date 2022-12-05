@@ -28,6 +28,7 @@ The project was to create a head-to-head comparison between VAEs and MIRT models
   - Epochs and batch sizes were tuned
 
 ## Results 
+We can see training times are lower for VAE across all conditions. Training times are more or less consistent and linear for VAE across conditions. However, the training times for MIRT models exponentially increase as sample sizes increase. We also see training times increase as estimated latent factors increase. VAEs remain unaffected. 
 ![vae-training-time](https://user-images.githubusercontent.com/24941864/205695209-a91ed34c-7dfa-449f-8b1a-daa811656baa.png)
 
 ### References 
