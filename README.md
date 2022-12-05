@@ -1,5 +1,5 @@
 # Project overview
-This repo is to record a paper I presented at the 37th SIOP conference. The paper was about the utility of using variational autoenoders for parameter recovery as compared to multidimensional IRT. This was a kind of "lofi" simulation to seed the idea in the I/O psychology community.
+This repo holds materials for a paper I presented at the 37th SIOP conference. The paper was about the utility (in terms of compute and training time) of using variational autoenoders for parameter recovery as compared to multidimensional IRT. This was a kind of "lofi" simulation to seed the idea in the I/O psychology community.
 
 The project was to create a head-to-head comparison between VAEs and MIRT models. This is based on work by Curi et al. (2019) and Converse (2020). 
 
