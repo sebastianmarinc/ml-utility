@@ -28,8 +28,7 @@ The project was to create a head-to-head comparison between VAEs and MIRT models
   - Epochs and batch sizes were tuned
 
 ## Results 
-![vae-time](https://user-images.githubusercontent.com/24941864/205694312-f66cc6d2-7ec0-47b8-afb2-b7418a2fa9f3.png)
-
+![vae-training-time](https://user-images.githubusercontent.com/24941864/205695209-a91ed34c-7dfa-449f-8b1a-daa811656baa.png)
 
 ### References 
 Converse, G. (2020). ML2Pvae: Variational autoencoder models for IRT parameter estimation. R package version 1.0.0. https://CRAN.R-project.org/package=ML2Pvae
