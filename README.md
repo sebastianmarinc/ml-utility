@@ -31,6 +31,10 @@ The project was to create a head-to-head comparison between VAEs and MIRT models
 We can see training times are lower for VAE across all conditions. Training times are more or less consistent and linear for VAE across conditions. However, the training times for MIRT models exponentially increase as sample sizes increase. We also see training times increase as estimated latent factors increase. VAEs remain unaffected. 
 ![vae-training-time](https://user-images.githubusercontent.com/24941864/205695209-a91ed34c-7dfa-449f-8b1a-daa811656baa.png)
 
+We can see unity (ie, correlation of .90-1.0) is reached between latent factors in MIRT models and latent vectors in VAEs. 
+![vae-thetas](https://user-images.githubusercontent.com/24941864/205697243-80c3a3bf-a87f-46c7-b9c4-ac801337d4c1.png)
+
+
 ### References 
 Converse, G. (2020). ML2Pvae: Variational autoencoder models for IRT parameter estimation. R package version 1.0.0. https://CRAN.R-project.org/package=ML2Pvae
 
