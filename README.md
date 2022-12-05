@@ -28,7 +28,6 @@ The project was to create a head-to-head comparison between VAEs and MIRT models
   - Epochs and batch sizes were tuned
 
 ## Results 
-![Training time](https://docs.google.com/presentation/d/1htyi3vOjRQE_FI-WmFokxWkNsBMoqvIXoCBdfvKleTQ/edit#slide=id.g1224a1c4c04_0_139)
 
 
 ### References 
